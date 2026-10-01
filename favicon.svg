@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3366" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="bag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+
+  <!-- Shopping Bag -->
+  <g filter="url(#shadow)">
+    <!-- Bag Handle -->
+    <path d="M 196 170 C 196 110, 316 110, 316 170" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" />
+    <!-- Bag Body -->
+    <path d="M 146 180 L 366 180 L 396 390 C 398 406, 386 420, 370 420 L 142 420 C 126 420, 114 406, 116 390 Z" fill="url(#bag)" />
+    <!-- Live Play Triangle Badge -->
+    <circle cx="256" cy="305" r="54" fill="#ff2a6d" />
+    <polygon points="244,283 282,305 244,327" fill="#ffffff" />
+  </g>
+
+  <!-- Sparkles -->
+  <polygon points="120,110 128,128 146,136 128,144 120,162 112,144 94,136 112,128" fill="#ffffff" />
+  <polygon points="410,130 416,144 430,150 416,156 410,170 404,156 390,150 404,144" fill="#ffffff" />
+</svg>
