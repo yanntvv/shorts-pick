@@ -93,6 +93,7 @@ function renderProducts(items) {
     const mallBadge = isNaver 
       ? '<span class="mall-tag naver">네이버</span>' 
       : '<span class="mall-tag coupang">쿠팡</span>';
+    const badgeHtml = p.badge ? `<span class="badge">${escapeHtml(p.badge)}</span>` : '';
     const ctaText = isNaver ? '네이버 보기 ➔' : '최저가 보기 ➔';
 
     return `
