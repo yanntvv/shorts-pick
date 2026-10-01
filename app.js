@@ -153,7 +153,7 @@ function renderProducts(items) {
             <span>🚀</span> 쿠팡 최저가
           </a>
           <a href="${escapeHtml(p.naver_url)}" target="_blank" rel="noopener noreferrer" class="btn-shop btn-naver">
-            <span>🟢</span> 네이버페이
+            <span>🟢</span> 네이버쇼핑몰
           </a>
         </div>
       `;
@@ -169,7 +169,7 @@ function renderProducts(items) {
       actionButtonsHtml = `
         <div class="shop-actions">
           <a href="${escapeHtml(p.naver_url)}" target="_blank" rel="noopener noreferrer" class="btn-shop btn-naver" style="width: 100%;">
-            <span>🟢</span> 네이버페이 구매하기
+            <span>🟢</span> 네이버쇼핑몰 바로가기
           </a>
         </div>
       `;
