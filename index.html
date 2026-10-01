@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>쇼츠 화제의 추천템 모음</title>
+  <meta name="description" content="유튜브 쇼츠 & 인스타 릴스 영상 속 화제의 가성비 꿀템 모음" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="쇼츠 화제의 추천템 모음" />
+  <meta property="og:description" content="영상 속 꿀템 최저가 확인하기" />
+  <meta property="og:type" content="website" />
+  
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- 헤더 프로필 영역 -->
+    <header class="profile-section">
+      <div class="profile-avatar">
+        <span class="avatar-icon">🛍️</span>
+      </div>
+      <h1 id="site-title" class="profile-name">쇼츠 꿀템 모음</h1>
+      <p id="site-desc" class="profile-bio">영상 속 화제의 상품을 최저가로 만나보세요!</p>
+      
+      <!-- 실시간 검색 바 -->
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" placeholder="찾으시는 상품을 검색해보세요" />
+      </div>
+
+      <!-- 카테고리 탭 -->
+      <div id="category-tabs" class="category-tabs">
+        <button class="cat-btn active" data-cat="all">전체</button>
+      </div>
+    </header>
+
+    <!-- 상품 카드 리스트 영역 -->
+    <main>
+      <div id="product-list" class="product-grid">
+        <!-- JS로 동적 렌더링 -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>상품 목록을 불러오는 중...</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- 공정위 필수 표기 및 푸터 -->
+    <footer class="footer-section">
+      <div class="disclosure-box">
+        <p>⚠️ <strong>제휴 활동 안내 (공정거래위원회 지침 준수)</strong></p>
+        <p>본 페이지는 쿠팡 및 네이버 파트너스/제휴 활동의 일환으로 일정액의 수수료를 제공받을 수 있으며, 구매자에게 추가 비용은 전혀 발생하지 않습니다.</p>
+      </div>
+      <p class="copyright">© <span id="current-year"></span> All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
