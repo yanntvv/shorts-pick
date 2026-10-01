@@ -96,10 +96,13 @@ function renderProducts(items) {
     const badgeHtml = p.badge ? `<span class="badge">${escapeHtml(p.badge)}</span>` : '';
     const ctaText = isNaver ? '네이버 보기 ➔' : '최저가 보기 ➔';
 
+    const fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect fill='%23f1f5f9' width='400' height='300'/%3E%3Ctext fill='%2394a3b8' font-family='sans-serif' font-size='20' dy='7' font-weight='bold' x='50%25' y='50%25' text-anchor='middle'%3E%EC%B6%94%EC%B2%9C%20%EC%83%81%ED%92%88%3C/text%3E%3C/svg%3E";
+    const imgSrc = p.image_url && p.image_url.trim() ? p.image_url.trim() : fallbackImg;
+
     return `
       <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer" class="product-card">
         <div class="card-img-wrap">
-          <img src="${escapeHtml(p.image_url || './placeholder.jpg')}" alt="${escapeHtml(p.title)}" class="card-img" loading="lazy" />
+          <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(p.title)}" class="card-img" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImg}';" />
           <div class="tag-row">
             ${mallBadge}
             ${badgeHtml}
