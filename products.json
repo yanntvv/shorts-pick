@@ -3,7 +3,7 @@
   "site_desc": "쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 홈쇼핑 특가 모음전",
   "announcement": "🔴 [LIVE 특가전] 오늘 자정까지 전 상품 무료배송 & 쿠팡·네이버 최저가 혜택!",
   "github_repo": "yanntvv/shorts-pick",
-  "last_updated": "2026-10-01T02:37:00.000Z",
+  "last_updated": "2026-10-01T02:45:33.122Z",
   "products": [
     {
       "id": "p_hs_01",
@@ -17,7 +17,12 @@
       "discount_rate": "46%",
       "category": "주방/생활",
       "badge": "방송 매진임박",
-      "benefits": ["무료배송", "로켓배송", "1+1 특가구성", "N포인트적립"],
+      "benefits": [
+        "무료배송",
+        "로켓배송",
+        "1+1 특가구성",
+        "N포인트적립"
+      ],
       "video_ref": "쇼츠 3화 방영 화제템",
       "md_comment": "영상에서 보신 바로 그 정리함! 냉장고 공간이 2배로 넓어집니다.",
       "is_active": true,
@@ -35,7 +40,11 @@
       "discount_rate": "16%",
       "category": "뷰티/패션",
       "badge": "MD 강력추천",
-      "benefits": ["무료배송", "선물포장가능", "N포인트 최대 5%"],
+      "benefits": [
+        "무료배송",
+        "선물포장가능",
+        "N포인트 최대 5%"
+      ],
       "video_ref": "인스타 릴스 100만뷰 템",
       "md_comment": "하루 종일 맑게 빛나는 광채 피부! 품절 대란템 긴급 공수",
       "is_active": true,
@@ -53,29 +62,15 @@
       "discount_rate": "36%",
       "category": "타임특가",
       "badge": "오늘만 타임세일",
-      "benefits": ["당일발송", "무료배송", "체험분 2매 증정"],
+      "benefits": [
+        "당일발송",
+        "무료배송",
+        "체험분 2매 증정"
+      ],
       "video_ref": "유튜브 쇼츠 방영 상품",
       "md_comment": "민감하고 지친 피부에 즉각적인 수분 폭탄! 환절기 필수템",
       "is_active": true,
       "created_at": "2026-10-01T02:20:00Z"
-    },
-    {
-      "id": "p_hs_04",
-      "title": "미들레이어 초경량 프리미엄 구스다운 패딩 자켓",
-      "image_url": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
-      "coupang_url": "https://link.coupang.com/a/sample2",
-      "naver_url": "https://smartstore.naver.com",
-      "channel": "both",
-      "price": "62,650",
-      "original_price": "129,000",
-      "discount_rate": "51%",
-      "category": "쇼츠 방영 상품",
-      "badge": "역대급 반값할인",
-      "benefits": ["무료배송", "로켓배송", "사이즈 무료교환"],
-      "video_ref": "틱톡 패션 트렌드 1위",
-      "md_comment": "깃털처럼 가볍고 따뜻한 구스다운 충전재! 지금 주문 시 내일 도착",
-      "is_active": true,
-      "created_at": "2026-10-01T02:15:00Z"
     }
   ]
 }
