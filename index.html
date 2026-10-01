@@ -3,39 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>쇼츠 화제의 추천템 모음</title>
-  <meta name="description" content="유튜브 쇼츠 & 인스타 릴스 영상 속 화제의 가성비 꿀템 모음" />
+  <title>쇼츠 홈쇼핑 라이브 (Pick & Buy)</title>
+  <meta name="description" content="쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 홈쇼핑 특가 모음전" />
   
   <!-- Open Graph -->
-  <meta property="og:title" content="쇼츠 화제의 추천템 모음" />
-  <meta property="og:description" content="영상 속 꿀템 최저가 확인하기" />
+  <meta property="og:title" content="쇼츠 홈쇼핑 라이브 - 화제의 방송 상품 특가전" />
+  <meta property="og:description" content="영상 속 화제의 꿀템! 쿠팡 최저가 및 네이버페이 혜택으로 바로 만나보세요." />
   <meta property="og:type" content="website" />
   
-  <link rel="stylesheet" href="./style.css?v=2" />
+  <link rel="stylesheet" href="./style.css?v=3" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <!-- 상단 홈쇼핑 긴급 LIVE 띠배너 -->
+  <aside class="live-ticker-bar">
+    <div class="live-ticker-inner">
+      <span class="live-dot-pulse"></span>
+      <span class="live-tag">LIVE 방송특가</span>
+      <span id="site-announcement" class="ticker-text">🔴 [쇼츠 방영 특가전] 오늘 주문 시 전 상품 무료배송 혜택!</span>
+    </div>
+  </aside>
+
   <div class="container">
     <!-- 헤더 프로필 영역 -->
     <header class="profile-section">
       <div class="profile-avatar">
-        <span class="avatar-icon">🛍️</span>
+        <span class="avatar-icon">📺</span>
       </div>
-      <h1 id="site-title" class="profile-name">쇼츠 꿀템 모음</h1>
-      <p id="site-desc" class="profile-bio">영상 속 화제의 상품을 최저가로 만나보세요!</p>
+      <h1 id="site-title" class="profile-name">쇼츠 홈쇼핑 라이브</h1>
+      <p id="site-desc" class="profile-bio">쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 특가 모음전</p>
       
       <!-- 실시간 검색 바 -->
       <div class="search-box">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="찾으시는 상품을 검색해보세요" />
+        <input type="text" id="search-input" placeholder="영상 속 상품명 또는 키워드를 검색해보세요" />
       </div>
 
-      <!-- 카테고리 탭 -->
-      <div id="category-tabs" class="category-tabs">
-        <button class="cat-btn active" data-cat="all">전체</button>
-      </div>
+      <!-- 카테고리 탭 (홈쇼핑 메뉴 규격) -->
+      <nav id="category-tabs" class="category-tabs">
+        <button class="cat-btn active" data-cat="all">전체보기</button>
+      </nav>
     </header>
 
     <!-- 상품 카드 리스트 영역 -->
@@ -44,7 +53,7 @@
         <!-- JS로 동적 렌더링 -->
         <div class="loading-state">
           <div class="spinner"></div>
-          <p>상품 목록을 불러오는 중...</p>
+          <p>방송 특가 상품을 불러오는 중...</p>
         </div>
       </div>
     </main>
@@ -52,13 +61,13 @@
     <!-- 공정위 필수 표기 및 푸터 -->
     <footer class="footer-section">
       <div class="disclosure-box">
-        <p>⚠️ <strong>제휴 활동 안내 (공정거래위원회 지침 준수)</strong></p>
-        <p>본 페이지는 쿠팡 및 네이버 파트너스/제휴 활동의 일환으로 일정액의 수수료를 제공받을 수 있으며, 구매자에게 추가 비용은 전혀 발생하지 않습니다.</p>
+        <p>⚠️ <strong>제휴 마케팅 활동 안내 (공정거래위원회 지침 준수)</strong></p>
+        <p>본 페이지는 쿠팡 파트너스 및 네이버 커넥트/쇼핑 제휴 활동의 일환으로 수수료를 제공받을 수 있으며, 구매자에게 발생하는 추가 비용은 일체 없습니다.</p>
       </div>
       <p class="copyright">© <span id="current-year"></span> All Rights Reserved.</p>
     </footer>
   </div>
 
-  <script src="./app.js?v=2"></script>
+  <script src="./app.js?v=3"></script>
 </body>
 </html>
