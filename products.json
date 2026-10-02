@@ -1,31 +1,10 @@
 {
   "site_title": "Hot Pick 쇼핑몰",
-  "site_desc": "쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 홈쇼핑 특가 모음전",
-  "announcement": "🔴 [LIVE 특가전] 오늘 자정까지 전 상품 무료배송 & 쿠팡·네이버 최저가 혜택!",
+  "site_desc": "쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 쿠팡·네이버 최저가 핫딜 모음전",
+  "announcement": "🔥 [실시간 핫딜] 오늘 자정까지 전 상품 무료배송 & 쿠팡·네이버 최저가 혜택!",
   "github_repo": "yanntvv/shorts-pick",
-  "last_updated": "2026-10-01T23:12:41.411Z",
+  "last_updated": "2026-10-02T00:34:34.260Z",
   "products": [
-    {
-      "id": "p_muq5gceb",
-      "title": "여성 캐시미어 100% 루즈핏니트 - 스웨터/니트",
-      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/900x900ex/image/vendor_inventory/1672/6a513b1e3432d9f47f82443e279c3b066db1ee6dbdfd69b6c62912b614da.jpg",
-      "coupang_url": "https://www.coupang.com/vp/products/7787843444",
-      "naver_url": "",
-      "channel": "coupang",
-      "price": "129,000",
-      "original_price": "174,200",
-      "discount_rate": "26%",
-      "category": "쿠팡특가",
-      "badge": "쇼츠 화제",
-      "benefits": [
-        "무료배송",
-        "로켓배송"
-      ],
-      "video_ref": "유튜브 쇼츠 방영 상품",
-      "md_comment": "영상에서 보신 바로 그 화제의 상품! 한정 특가로 만나보세요.",
-      "is_active": true,
-      "created_at": "2026-10-01T23:12:41.411Z"
-    },
     {
       "id": "p_hs_01",
       "title": "이지앤프리 블랙킵 에디션 냉장고 정리 밀폐용기 세트",
@@ -36,15 +15,15 @@
       "price": "9,600",
       "original_price": "18,000",
       "discount_rate": "46%",
-      "category": "주방/생활",
-      "badge": "방송 매진임박",
+      "category": "🍳 주방/생활용품",
+      "badge": "실시간 핫딜",
       "benefits": [
         "무료배송",
         "로켓배송",
-        "1+1 특가구성",
-        "N포인트적립"
+        "1+1 특가",
+        "N포인트 적립"
       ],
-      "video_ref": "쇼츠 3화 방영 화제템",
+      "video_ref": "쇼츠 3화 추천 화제템",
       "md_comment": "영상에서 보신 바로 그 정리함! 냉장고 공간이 2배로 넓어집니다.",
       "is_active": true,
       "created_at": "2026-10-01T02:30:00Z"
@@ -59,12 +38,12 @@
       "price": "96,670",
       "original_price": "115,000",
       "discount_rate": "16%",
-      "category": "뷰티/패션",
+      "category": "💄 패션/뷰티",
       "badge": "MD 강력추천",
       "benefits": [
         "무료배송",
-        "선물포장가능",
-        "N포인트 최대 5%"
+        "N포인트 적립",
+        "최저가 보장"
       ],
       "video_ref": "인스타 릴스 100만뷰 템",
       "md_comment": "하루 종일 맑게 빛나는 광채 피부! 품절 대란템 긴급 공수",
@@ -81,14 +60,14 @@
       "price": "45,900",
       "original_price": "72,000",
       "discount_rate": "36%",
-      "category": "타임특가",
-      "badge": "오늘만 타임세일",
+      "category": "⚡ 타임특가/한정수량",
+      "badge": "오늘만 한정세일",
       "benefits": [
         "당일발송",
         "무료배송",
-        "체험분 2매 증정"
+        "1+1 특가"
       ],
-      "video_ref": "유튜브 쇼츠 방영 상품",
+      "video_ref": "유튜브 쇼츠 추천 상품",
       "md_comment": "민감하고 지친 피부에 즉각적인 수분 폭탄! 환절기 필수템",
       "is_active": true,
       "created_at": "2026-10-01T02:20:00Z"
