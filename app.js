@@ -1,4 +1,4 @@
-// GitHub Pages 홈쇼핑 멀티링크 비동기 렌더러
+// GitHub Pages 이커머스 멀티링크 비동기 렌더러
 let allProducts = [];
 let activeCategory = 'all';
 
@@ -37,7 +37,7 @@ async function loadProducts() {
     if (container) {
       container.innerHTML = `
         <div class="empty-state">
-          <p>방송 특가 상품 목록을 불러오지 못했습니다.</p>
+          <p>핫딜 특가 상품 목록을 불러오지 못했습니다.</p>
           <p style="font-size: 12px; margin-top: 6px;">잠시 후 새로고침(F5)을 시도해 주세요.</p>
         </div>
       `;
@@ -100,7 +100,7 @@ function renderProducts(items) {
     return;
   }
 
-  const fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'%3E%3Crect fill='%23f1f5f9' width='400' height='260'/%3E%3Ctext fill='%2394a3b8' font-family='sans-serif' font-size='20' dy='7' font-weight='bold' x='50%25' y='50%25' text-anchor='middle'%3E%ED%99%88%EC%87%BC%ED%95%91%20%ED%8A%B9%EA%B0%80%20%EC%83%81%ED%92%88%3C/text%3E%3C/svg%3E";
+  const fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'%3E%3Crect fill='%23f1f5f9' width='400' height='260'/%3E%3Ctext fill='%2394a3b8' font-family='sans-serif' font-size='20' dy='7' font-weight='bold' x='50%25' y='50%25' text-anchor='middle'%3E%ED%95%AB%EB%94%9C%20%ED%8A%B9%EA%B0%80%20%EC%83%81%ED%92%88%3C/text%3E%3C/svg%3E";
 
   container.innerHTML = items.map(p => {
     const imgSrc = p.image_url && p.image_url.trim() ? p.image_url.trim() : fallbackImg;
@@ -112,7 +112,7 @@ function renderProducts(items) {
       ? `<span class="discount-badge">${escapeHtml(p.discount_rate)} 특가</span>` 
       : '';
 
-    // 우측 상단 뱃지 (방영 태그 또는 사용자 뱃지)
+    // 우측 상단 뱃지 (대표 뱃지 또는 사용자 뱃지)
     const rightBadges = [];
     if (p.badge) {
       rightBadges.push(`<span class="badge-pill custom">${escapeHtml(p.badge)}</span>`);
@@ -123,9 +123,9 @@ function renderProducts(items) {
       ? `<div class="video-ref-tag"><span>📺</span> <span>${escapeHtml(p.video_ref)}</span></div>`
       : '';
 
-    // MD 한 줄 추천평
+    // 한 줄 추천평
     const mdCommentHtml = p.md_comment 
-      ? `<div class="md-comment-box"><span class="md-comment-prefix">💡 MD추천:</span>${escapeHtml(p.md_comment)}</div>`
+      ? `<div class="md-comment-box"><span class="md-comment-prefix">💡 추천:</span>${escapeHtml(p.md_comment)}</div>`
       : '';
 
     // 혜택 태그 목록
