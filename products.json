@@ -3,6 +3,28 @@
   "site_desc": "쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 쿠팡·네이버 최저가 핫딜 모음전",
   "announcement": "🔥 [실시간 핫딜] 오늘 자정까지 전 상품 무료배송 & 쿠팡·네이버 최저가 혜택!",
   "github_repo": "yanntvv/shorts-pick",
-  "last_updated": "2026-10-02T00:34:42.611Z",
-  "products": []
+  "last_updated": "2026-10-04T05:45:54.191Z",
+  "products": [
+    {
+      "id": "p_mutedq1b",
+      "title": "[단독특가] 유명산지 초고당도 샤인머스캣, 초특가 2kg, 1박스 - 포도",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/900x900ex/image/vendor_inventory/d49a/f970815f0eea51b2f1430505d02bbd5ad9459e6605e88ccfb84c70dac80d.png",
+      "coupang_url": "https://www.coupang.com/vp/products/9661764500",
+      "naver_url": "",
+      "channel": "coupang",
+      "price": "8,000",
+      "original_price": "10,800",
+      "discount_rate": "26%",
+      "category": "쿠팡특가",
+      "badge": "쿠팡 로켓특가",
+      "benefits": [
+        "무료배송",
+        "로켓배송"
+      ],
+      "video_ref": "쇼츠 추천 화제템",
+      "md_comment": "영상에서 보신 바로 그 추천 상품! 쿠팡·네이버 최저가 혜택으로 만나보세요.",
+      "is_active": true,
+      "created_at": "2026-10-04T05:45:54.191Z"
+    }
+  ]
 }
