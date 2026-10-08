@@ -3,6 +3,28 @@
   "site_desc": "쇼츠·릴스 영상 속 화제의 꿀템 & 실시간 쿠팡·네이버 최저가 핫딜 모음전",
   "announcement": "🔥 [실시간 핫딜] 오늘 자정까지 전 상품 무료배송 & 쿠팡·네이버 최저가 혜택!",
   "github_repo": "yanntvv/shorts-pick",
-  "last_updated": "2026-10-04T05:47:21.436Z",
-  "products": []
+  "last_updated": "2026-10-08T08:53:19.629Z",
+  "products": [
+    {
+      "id": "p_muzau5ql",
+      "title": "데일리앤 키싱 여성 루즈핏 카라 브이넥 무지 니트 티셔츠 부드러운 기본 트임 언발 롱 니트티 가을 - 스웨터/니트",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/900x900ex/image/vendor_inventory/da48/9c00be6666389807374e52f167154568beb7dbf40fac4ea2c7f92cbe99e2.jpg",
+      "coupang_url": "https://www.coupang.com/vp/products/9081482814",
+      "naver_url": "",
+      "channel": "coupang",
+      "price": "29,800",
+      "original_price": "40,200",
+      "discount_rate": "26%",
+      "category": "쿠팡특가",
+      "badge": "쿠팡 로켓특가",
+      "benefits": [
+        "무료배송",
+        "로켓배송"
+      ],
+      "video_ref": "쇼츠 추천 화제템",
+      "md_comment": "영상에서 보신 바로 그 추천 상품! 쿠팡·네이버 최저가 혜택으로 만나보세요.",
+      "is_active": true,
+      "created_at": "2026-10-08T08:53:19.629Z"
+    }
+  ]
 }
